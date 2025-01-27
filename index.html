@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+
+
+    
+</style>
+
+<body>
+
+
+    <div class="section">
+
+        <img src="bulb_off.gif" id="img1">
+
+        <script>
+
+            function bulbon() {
+                document.getElementById("img1") .src = "bulb_on.gif"
+            }
+
+
+
+            function bulbof() {
+                document.getElementById("img1").src = "bulb_off.gif"
+            }
+
+        </script>
+
+
+        <div class="btn">
+            <button onclick="bulbon()"> <span>Light on</span> </button>
+            <button class="btn2" onclick="bulbof()"> <span>Light off</span> </button>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

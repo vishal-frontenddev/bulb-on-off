@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://img.freepik.com/premium-vector/blue-background-textureline-grid-pattern-with-radial-gradient_434359-255.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721692800&semt=ais_user);
+}
+
+.section {
+    height: 60vh;
+    width: 700px;
+    background-color: rgb(11, 11, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    height: 30px;
+    width: 500px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 0, 0.897);
+}
+.btn2 {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(0, 128, 0, 0.911);
+}
+span {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.911);
+}
